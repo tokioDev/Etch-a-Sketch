@@ -23,7 +23,5 @@ function colorGrid(){
     });
 }
 
-
-
 createGrid(16);
 colorGrid();
