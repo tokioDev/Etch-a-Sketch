@@ -1,0 +1,30 @@
+* {
+  /*  margin: 0; */
+    padding: 0;
+
+  box-sizing: border-box;
+  }
+  body{
+    display:flex;
+    justify-content: center;
+  }
+
+ #container{
+   display:flex;
+  width:620px;
+  height: 620px;
+
+ }
+ .gridColumn{
+display:flex;
+flex-direction: column;
+flex-basis:0;
+flex-grow:1;
+flex-shrink:1;
+ }
+ .gridRow{
+   border:1px solid;
+  flex-basis:0;
+  flex-grow:1;
+  flex-shrink:1;
+ }
